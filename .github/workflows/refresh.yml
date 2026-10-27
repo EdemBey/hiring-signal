@@ -1,0 +1,42 @@
+name: refresh data
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # The cache holds every posting detail we have already fetched. Without it
+      # a nightly run re-downloads ~2,000 endpoints from someone else's API.
+      - uses: actions/cache@v4
+        with:
+          path: tools/cache
+          key: posting-cache-${{ github.run_id }}
+          restore-keys: posting-cache-
+
+      - name: Rebuild the text layer
+        run: python3 tools/deep.py --company Ramboll3 --company AFRY
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "signal-bot"
+          git config user.email "signal-bot@users.noreply.github.com"
+          git add docs/deep/
+          if git diff --staged --quiet; then
+            echo "no changes"
+          else
+            git commit -m "data: refresh $(date -u +%F)"
+            git push
+          fi
