@@ -1,21 +1,21 @@
 {
   "company": "AFRY",
   "name": "AFRY",
-  "generatedAt": "2026-10-31T10:49:06+00:00",
-  "analysed": 904,
-  "aiMentions": 26,
-  "aiShare": 0.0288,
-  "avgWords": 469,
-  "emptyQualifications": 83,
-  "distinctBoilerplate": 183,
+  "generatedAt": "2026-11-01T11:45:40+00:00",
+  "analysed": 823,
+  "aiMentions": 25,
+  "aiShare": 0.0304,
+  "avgWords": 458,
+  "emptyQualifications": 82,
+  "distinctBoilerplate": 181,
   "topTerms": [
     [
       "automation",
-      135
+      104
     ],
     [
       "AI",
-      71
+      70
     ],
     [
       "LLM",
@@ -29,6 +29,6 @@
   "bulkDay": {
     "date": "2026-10-26",
     "count": 33,
-    "share": 0.0365
+    "share": 0.0401
   }
 }
