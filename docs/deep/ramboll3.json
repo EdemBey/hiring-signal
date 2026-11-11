@@ -1,17 +1,17 @@
 {
   "company": "Ramboll3",
   "name": "Ramboll",
-  "generatedAt": "2026-11-10T13:21:48+00:00",
-  "analysed": 998,
+  "generatedAt": "2026-11-11T12:32:41+00:00",
+  "analysed": 1046,
   "aiMentions": 42,
-  "aiShare": 0.0421,
-  "avgWords": 880,
-  "emptyQualifications": 657,
+  "aiShare": 0.0402,
+  "avgWords": 875,
+  "emptyQualifications": 704,
   "distinctBoilerplate": 94,
   "topTerms": [
     [
       "automation",
-      73
+      76
     ],
     [
       "AI",
@@ -24,7 +24,7 @@
   ],
   "bulkDay": {
     "date": "2026-10-02",
-    "count": 88,
-    "share": 0.0882
+    "count": 95,
+    "share": 0.0908
   }
 }
