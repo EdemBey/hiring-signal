@@ -1,17 +1,17 @@
 {
   "company": "AFRY",
   "name": "AFRY",
-  "generatedAt": "2026-11-16T13:27:49+00:00",
+  "generatedAt": "2026-11-17T14:13:25+00:00",
   "analysed": 827,
-  "aiMentions": 29,
-  "aiShare": 0.0351,
-  "avgWords": 465,
-  "emptyQualifications": 79,
-  "distinctBoilerplate": 190,
+  "aiMentions": 31,
+  "aiShare": 0.0375,
+  "avgWords": 467,
+  "emptyQualifications": 77,
+  "distinctBoilerplate": 188,
   "topTerms": [
     [
       "AI",
-      253
+      255
     ],
     [
       "automation",
