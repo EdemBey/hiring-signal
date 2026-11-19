@@ -1,13 +1,13 @@
 {
   "company": "AFRY",
   "name": "AFRY",
-  "generatedAt": "2026-11-18T13:44:46+00:00",
-  "analysed": 827,
+  "generatedAt": "2026-11-19T14:13:51+00:00",
+  "analysed": 832,
   "aiMentions": 31,
-  "aiShare": 0.0375,
-  "avgWords": 467,
+  "aiShare": 0.0373,
+  "avgWords": 469,
   "emptyQualifications": 78,
-  "distinctBoilerplate": 191,
+  "distinctBoilerplate": 192,
   "topTerms": [
     [
       "AI",
@@ -15,7 +15,7 @@
     ],
     [
       "automation",
-      143
+      147
     ],
     [
       "machine learning",
@@ -33,6 +33,6 @@
   "bulkDay": {
     "date": "2026-11-11",
     "count": 34,
-    "share": 0.0411
+    "share": 0.0409
   }
 }
